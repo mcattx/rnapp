@@ -15,4 +15,4 @@ class Tab extends Component {
 
 var tab2 = '';
 
-module.exports = tab2;
+module.exports = Tab;

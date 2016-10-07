@@ -38,11 +38,11 @@ class rnapp extends Component {
           selected={this.state.selectedTab ==='blueTab'}
           onPress={() => {
             this.setState({
-              selected: 'blueTab',
+              selectedTab: 'blueTab',
             })
           }}
         >
-        <Text>blueTab</Text>
+        <Tab1 />
         </TabBarItemIOS>
         <TabBarItemIOS
           title="Red Tab"
@@ -54,7 +54,7 @@ class rnapp extends Component {
             })
           }}
         >
-        <Text>redTab</Text>
+        <Tab2 />
         </TabBarItemIOS>
         <TabBarItemIOS
           title="Purple Tab"
@@ -66,7 +66,7 @@ class rnapp extends Component {
             })
           }}
         >
-        <Text>purpleTab</Text>
+        <Tab1 />
         </TabBarItemIOS>
       </TabBarIOS>
     )
