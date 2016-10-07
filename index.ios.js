@@ -15,8 +15,7 @@ import {
 
 const TabBarItemIOS = TabBarIOS.Item;
 
-import Tab1 from './App/View/tab1';
-import Tab2 from './App/View/tab2';
+import Article from './App/View/Article/Article';
 
 class rnapp extends Component {
   //导航
@@ -42,7 +41,7 @@ class rnapp extends Component {
             })
           }}
         >
-        <Tab1 />
+        <Article />
         </TabBarItemIOS>
         <TabBarItemIOS
           title="Red Tab"
@@ -54,7 +53,7 @@ class rnapp extends Component {
             })
           }}
         >
-        <Tab2 />
+        <Article />
         </TabBarItemIOS>
         <TabBarItemIOS
           title="Purple Tab"
@@ -66,7 +65,7 @@ class rnapp extends Component {
             })
           }}
         >
-        <Tab1 />
+        <Article />
         </TabBarItemIOS>
       </TabBarIOS>
     )

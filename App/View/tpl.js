@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
 import {
   AppRegistry,
-  StyleSheet,
   Text
 } from 'react-native';
 
-class Tab extends Component {
+class Tpl extends Component {
   render() {
     return (
-      <Text>This is Page 2 !</Text>
+      <Text>This Is Template Page !</Text>
     );
   }
 }
 
-var tab2 = '';
-
-module.exports = Tab;
+module.exports = Tpl;

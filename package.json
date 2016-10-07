@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "dev": "react-native run-ios"
+    "dev": "react-native run-ios",
+    "build": "react-native bundle --entry-file index.io.js --platform ios --dev false --bundle-output ./ios/bundle/index.ios.jsbundle --assets-dest ./ios/bundle"
   },
   "dependencies": {
     "react": "15.3.2",
