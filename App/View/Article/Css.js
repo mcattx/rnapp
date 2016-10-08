@@ -25,11 +25,19 @@ module.exports = StyleSheet.create({
     fontSize: 16,
     color: '#666',
   },
+  articleTextBox: {
+    paddingTop: 10,
+    flexDirection: 'row'
+  },
   articleDesc: {
+    flex: 8,
     fontSize: 12,
+    lineHeight: 18,
     color: '#999',
+    paddingRight: 10,
   },
   articlePic: {
+    flex: 2,
     width: 48,
     height: 48
   }

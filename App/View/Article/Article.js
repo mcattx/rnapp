@@ -49,8 +49,14 @@ class Article extends Component {
           renderRow={(rowData) => 
             <View style={Style.articleBox}>
               <Text style={Style.articleTitle}>{rowData}</Text>
-              <Text style={Style.articleDesc}>{rowData}</Text>
-              <Image source={picUrl} style={Style.articlePic} />
+              <View style={Style.articleTextBox}>
+                <Text style={Style.articleDesc} numberOfLines={2}>充电五分钟通话两小时的手机很容易买充电五分钟通话两小时的手机很容易买充电五分钟通话两小时的手机很容易买充电五分钟通话两小时的手机很容易买</Text>
+                <Image source={{uri: 'https://apic.douyucdn.cn/upload/avatar/face/201609/01/bfd919909343472a10e40fa785bc390b_middle.jpg?rltime'}}
+                  style={Style.articlePic} 
+                  resizeMode='contain'
+                  />
+              </View>
+              
             </View>
           }
         >
