@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import {
-  AppRegistry,
   Text
 } from 'react-native';
+
+import Style from './Css';
 
 class Tpl extends Component {
   render() {
