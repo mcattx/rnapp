@@ -11,16 +11,20 @@ module.exports = StyleSheet.create({
   },
   cover: {
     flex: 1,
-    
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   coverImg: {
-    height: 355
+    height: 350,
   },
   intro: {
-    marginTop: 355,
-    height: 350
+    flex: 1,
+    marginTop: 0,
+    height: 20
   },
   story: {
-    zIndex: 2
+    flex: 1,
+    marginTop: 0,
+    height:30,
   }
 });

@@ -16,13 +16,14 @@ import {
 const TabBarItemIOS = TabBarIOS.Item;
 
 import Article from './App/View/Article/Article';
+import Music from './App/View/Music/Music';
 
 class rnapp extends Component {
   //导航
   constructor(props) {
     super(props);
     this.state = {
-      selectedTab: 'redTab',
+      selectedTab: 'purpleTab',
       notifyCount: 0,
       presses: 0
     }
@@ -65,7 +66,7 @@ class rnapp extends Component {
             })
           }}
         >
-        <Article />
+        <Music />
         </TabBarItemIOS>
       </TabBarIOS>
     )
